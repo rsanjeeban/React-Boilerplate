@@ -1,0 +1,134 @@
+{
+  "login": {
+    "email": "Email",
+    "password": "Password",
+    "createYourNewPassword": "Skapa nytt lösenord",
+    "enterNewPassword": "Ange lösenord",
+    "enterYourCustomerNumber": "Ange kundnummer",
+    "enterYourEmail": "Ange e-post",
+    "enterYourId": "Tolknummer",
+    "enterYourInterpreterId": "Ange tolknummer",
+    "enterYourPassword": "Ange lösenord",
+    "forgotPassword": "Glömt lösenord",
+    "login": "Logga in",
+    "minimumOfEightCharactersInLength": "Lösenordet måste innehålla minst åtta (8) tecken",
+    "newPassword": "Nytt lösenord",
+    "resetPassword": "Lösenord",
+    "retypeNewPassword": "Upprepa lösenord",
+    "changePassword": "Fortsätt",
+    "signInToContinue": "Ange e-post och tolknummer för att få en inloggningslänk",
+    "signInToContinueClient": "Kontakta vår kundservice om du saknar inloggningsuppgifter",
+    "title": "Logga in",
+    "validator": "Lösenordet måste innehålla minst åtta (8) tecken', 'Lösenorden matchar inte!",
+    "welcomeBack": "Du är snart klar!",
+    "productOfTransvoice": "Skapad av Transvoice",
+    "copyRight": "Copyright Tolka! 2019",
+    "minLengthMessage": "Lösenordet måste innehålla minst åtta (8) tecken",
+    "customerNumberIsRequire": "Kundnummer är obligatoriskt",
+    "customerNumberIsNotValid": "Kundnummer är inte korrekt ifyllt",
+    "loginSuccessMessage": "Du har fått ett mejl! Öppna mejlet på den enhet du vill logga in",
+    "clientPortal": "Kundportal",
+    "interpreterPortal": "Tolkportal",
+    "clickBelowIfYouAreNotRedirected": "Klicka på länken om du inte automatiskt skickas vidare"
+  },
+  "api": {
+    "requestFailed": "Anslutningen misslyckades",
+    "requestNotCompleted": "Anslutningsfel",
+    "requestTimedOut": "Anslutningen tog för lång tid och avbröts"
+  },
+  "assignment": {
+    "accept": "Acceptera",
+    "onSite": "Kontakttolkning",
+    "reject": "Avböj"
+  },
+  "availableRequest": {
+    "agreeTermsAndCondition1": "Genom att acceptera uppdraget godkänner du våra",
+    "agreeTermsAndCondition2": "Allmänna villkor och riktlinjer för tolkuppdrag",
+    "cannotAcceptThisAssignment": "Jag kan inte acceptera det här uppdraget",
+    "checkYourCalendar": "Kolla din kalender",
+    "confirmDescription": "När du accepterat uppdraget kommer det att läggas till i din kalender",
+    "confirmTitle": "Är du säker på att du vill acceptera?",
+    "description": "Uppdrag som matchar din kompetens och tillgänglighet",
+    "guide": "Nu finns informationen om det här uppdraget i din kalender",
+    "message": "Du har nu accepterat <b>â€œ{{name}}â€</b>",
+    "rejectDescription": "När du avböjt uppdraget kommer det att tilldelas en annan resurs och försvinna ur din vy",
+    "rejectTitle": "Är du säker på att du vill avböja?",
+    "title": "Uppdragsförfrågningar"
+  },
+  "avatar": {
+    "logout": "Logga ut",
+    "myAvailability": "Tillgänglighet",
+    "myPreferences": "Uppdragsväljaren",
+    "settings": "Inställningar",
+    "yourProfile": "Profil"
+  },
+  "browseAssignment": {
+    "description": "Hitta uppdrag som matchar din kompetens",
+    "imInterested": "Jag är intresserad",
+    "title": "Sök uppdragsnummer"
+  },
+  "calendar": {
+    "monthly": "Månad",
+    "more": "mer",
+    "of": "av",
+    "submitTimeForAvailability": "Ange tillgänglighet",
+    "title": "Kalender",
+    "week": "Vecka",
+    "weekly": "Vecka",
+    "viewAll": "Se alla",
+    "newRequest": "Ny förfrågan"
+  },
+  "RouteGuardModal": {
+    "cancelButton": "Nej",
+    "submitButton": "Ja",
+    "cancelMessage": "Är du säker på att du vill avboka uppdraget?"
+  },
+  "general": {
+    "back": "Tillbaka",
+    "cancel": "Avbryt",
+    "confirm": "Bekräfta",
+    "customerNumber": "Kundnummer",
+    "done": "Klar",
+    "education": "Kompetensnivå",
+    "email": "E-post",
+    "female": "Kvinna",
+    "googleServerError": "Fel",
+    "interpreterId": "Tolknummer",
+    "male": "Man",
+    "no": "Nej",
+    "none": "-",
+    "password": "Lösenord",
+    "serverError": "Fel",
+    "unexpectedError": "Ett tillfälligt fel har uppstått",
+    "yes": "Ja"
+  },
+  "validator": {
+    "isNotValid": "{{name}} är inte korrekt ifyllt",
+    "isRequired": "{{name}} är obligatoriskt",
+    "mustHaveValue": "Minst ett av dessa fält måste ha ett värde: {{field}}",
+    "requireLength": "{{name}} måste innehålla minst {{number}} tecken",
+    "thisFieldIsRequired": "Fältet är obligatoriskt",
+    "isNumber": "Endast siffror tillåtna",
+    "matchRegexp:^[0-9 ()+-]+$": "Endast siffror tillåtna",
+    "alwaysError": "‏‏‎ ‎‎‎‎‎‎"
+  },
+  "errors": {
+    "invalidResourceNumber": "Tolknummer är inte korrekt ifyllt",
+    "invalidEmailFormat": "E-post är inte korrekt ifyllt",
+    "loginLinkExpired": "Login link expired"
+  },
+  "navigation": {
+    "calendar": "Kalender",
+    "assignmentAndInquiries": "Uppdrag och förfrågningar",
+    "contact": "Kontakta"
+  },
+  "contact": {
+    "sendTransvoiceAnEmail": "Kontakta Transvoice via e-post"
+  },
+  "welcome": {
+    "message": "Välkommen",
+    "scheduleMessage": "Din schemalagda arbetstid idag är",
+    "availableBasedOnSchedule": "Du är tillgänglig just nu",
+    "unavailableBasedOnSchedule": "Du är inte tillgänglig just nu. För att få förfrågningar ändra din Schemalagda tillgänglighet eller lägg dig tillfälligt tillgänglig under Tillgänglig/Upptagen."
+  }
+}

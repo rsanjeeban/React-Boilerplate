@@ -1,0 +1,10 @@
+.sc-authentication {
+  background: url('../../../assets/images/background.jpg');
+  background-size: cover;
+  &__form {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "error": {
+    "commonError": "Something went wrong!!!",
+    "createCustomerFailed": "Customer creation has failed"
+  },
+  "general": {
+    "back": "back",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "done": "Done",
+    "male": "Female",
+    "female": "Female",
+    "no": "No",
+    "none": "-",
+    "serverError": "Server Error",
+    "unexpectedError": "Unexpected Error",
+    "yes": "Yes",
+    "copyRight": "Copyright SqillUp 2021"
+  },
+  "login": {
+    "title": "Sign in",
+    "email": "Email",
+    "password": "Password",
+    "login": "Login",
+    "createYourNewPassword": "Create your new password.",
+
+    "validator": "Minimum of eight (8) characters in length.', 'Password and confirm password does not match!",
+    "minLengthMessage": "Minimum of eight (8) characters in length",
+    "loginSuccessMessage": "You are logged success, Please check your email to continue login!"
+  },
+  "validator": {
+    "isNotValid": "{{name}} is not valid",
+    "isRequired": "{{name}} is required",
+    "mustHaveValue": "At least one of these fields must have a value: {{field}}",
+    "requireLength": "{{name}} must contain at least {{number}} characters",
+    "thisFieldIsRequired": "The field is mandatory",
+    "isNumber": "Only numbers allowed",
+    "matchRegexp:^[0-9 ()+-]+$": "Only numbers allowed",
+    "alwaysError": "‏‏‎ ‎‎‎‎‎‎"
+  }
+}

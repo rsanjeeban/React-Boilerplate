@@ -1,0 +1,27 @@
+@import './fonts.scss';
+@import './_variables.scss';
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.sc-mobile {
+  &--show {
+    display: none;
+  }
+  @media (max-width: $breakpoint-tablet) {
+    &--hide {
+      display: none;
+    }
+    &--show {
+      display: initial;
+    }
+  }
+}

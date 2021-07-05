@@ -1,0 +1,48 @@
+//-------------------- Box shadow --------------------//
+@mixin box-shadow($val...) {
+  -webkit-box-shadow: $val;
+  -moz-box-shadow: $val;
+  box-shadow: $val;
+}
+//-------------------- Transition --------------------//
+@mixin transition-default($what: all, $length: 0.3s, $easing: '') {
+  @if ($what == transform) {
+    @if ($easing != '') {
+      -moz-transition: -moz-transform $length $easing;
+      -o-transition: -o-transform $length $easing;
+      -webkit-transition: -webkit-transform $length $easing;
+      -ms-transition: -ms-transform $length $easing;
+      transition: transform $length $easing;
+    } @else {
+      -moz-transition: -moz-transform $length;
+      -o-transition: -o-transform $length;
+      -webkit-transition: -webkit-transform $length;
+      -ms-transition: -ms-transform $length;
+      transition: transform $length;
+    }
+  } @else {
+    @if ($easing != '') {
+      -moz-transition: $what $length $easing;
+      -o-transition: $what $length $easing;
+      -webkit-transition: $what $length $easing;
+      -ms-transition: $what $length $easing;
+      transition: $what $length $easing;
+    } @else {
+      -moz-transition: $what $length ease-in-out;
+      -o-transition: $what $length ease-in-out;
+      -webkit-transition: $what $length ease-in-out;
+      -ms-transition: $what $length ease-in-out;
+      transition: $what $length ease-in-out;
+    }
+  }
+}
+@mixin transition-default-cubic-bezier(
+  $what: all,
+  $length: 0.3s cubic-bezier(0.77, 0, 0.175, 1)
+) {
+  -webkit-transition: $what $length;
+  -moz-transition: $what $length;
+  -ms-transition: $what $length;
+  -o-transition: $what $length;
+  transition: $what $length;
+}

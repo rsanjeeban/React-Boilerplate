@@ -1,0 +1,48 @@
+@import '../../../assets/styles/_variables.scss';
+@import '../../../assets/styles/_mixin.scss';
+
+.sc-field {
+  &__container {
+    display: flex;
+    flex-direction: column;
+    margin: 12px 0;
+  }
+  &__label {
+    font-family: $PRIMARY_FONT;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0;
+  }
+  &__input {
+    border: 1px solid $BORDER_COLOR;
+    height: 48px;
+    box-sizing: border-box;
+    padding: 14px 16px;
+    border-radius: 4px;
+    margin: 8px 0px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    &--error {
+      border: 1px solid $VALIDATION_ERROR_COLOR;
+    }
+    &:focus,
+    &:focus-visible {
+      outline: 0;
+      color: #495057;
+      background-color: #fff;
+      border-color: $PRIMARY_COLOR;
+    }
+  }
+  &__error {
+    font-family: $PRIMARY_FONT;
+    font-style: normal;
+    color: $VALIDATION_ERROR_COLOR;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
